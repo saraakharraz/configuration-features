@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blog
+  module:
+    - node
+id: blogger
+label: Blogger
+weight: 4
+is_admin: false
