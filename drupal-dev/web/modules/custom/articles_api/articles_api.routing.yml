@@ -1,0 +1,7 @@
+articles_api.articles:
+  path: '/api/articles'
+  defaults:
+    _controller: '\Drupal\articles_api\Controller\ArticlesController::getArticles'
+    _title: 'Articles API'
+  requirements:
+    _permission: 'access content'
